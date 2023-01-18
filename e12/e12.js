@@ -1,4 +1,4 @@
-class Triangulo{
+export class Triangulo{
     constructor(x,y){
         this.x = x;
         this.y = y;
@@ -12,5 +12,3 @@ class Triangulo{
         return lado * 3;
     }
 }
-console.log(Triangulo.area(10,5));
-console.log(Triangulo.perimetro(10));
